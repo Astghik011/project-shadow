@@ -4,18 +4,32 @@
     padding: 0;
 }
 
+body{
+    width:100%;
+}
+
 .container{
     width: 1140px;
     margin: 0 auto;
 }
 
+nav{
+    position:absolute;
+    top:506px;
+    left:75px;
+}
+
+.menu,
+.btn,
+nav ul li{
+    display:flex;
+}
+
 .menu{
-    display: flex;
     justify-content: space-between;
 }
 
 .btn{
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -25,16 +39,12 @@
     background: url(icons/free-icon-cheeseburger-2362255.png);
 }
 
-/* .icon{ */
-    /* position:absolute;
-    top:8px;
-    left:8px;
-} */
-
 nav ul li{
     position: relative;
-    display: flex;
 }
+
+
+
 
 
 

@@ -1,24 +1,52 @@
-body{
-    background-color:lightgrey;;
+body,
+#number_of_orders,
+.order_range{
+    background-color:#F2F2F3;
 }
 
-ul li{
-    background-color: white;
+ul li, 
+aside,
+.btn{
+    background-color:white;
 }
 
-ul li a{
+ul li a:active,
+.btn:hover,
+#submit_order:hover{
+    background-color: #FFAB08;
+}
+
+ul li a, 
+h2,
+h3,
+.btn,
+.add,
+.subtract,
+.number{
     color: black;
 }
 
-ul li a:active {
-    background-color: #FF7020;
+.add_order,
+.number{
+    background-color: #F2F2F3;
 }
 
-.btn{
-    color:black;
-    background-color: white;
+.add:hover,
+.subtract:hover{
+    background-color: #B1B1B1;
 }
 
-.btn:hover{
-    background-color: #FF7020;
+#submit_order{
+    background-color:#FF7020;
 }
+
+
+#submit_order{
+    color:white;
+}
+
+.weight{
+    color: #B1B1B1;
+}
+
+
